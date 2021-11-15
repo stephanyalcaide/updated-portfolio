@@ -1,0 +1,104 @@
+
+body {
+background-color: burlywood;
+}
+
+ul {
+    list-style-type: none;
+    margin: 60px;
+    padding: 30px;
+    overflow: hidden;
+    background-color: rgb(202, 202, 254);
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 30px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    float: right;
+  }
+
+  /* Change the link color to #(115,115,203) (rgb(115, 115, 203)) on hover */
+li a:hover {
+    background-color: rgb(115, 115, 203);
+  }
+/* this section is for the scroll feature */
+  h2 {
+      padding-top: 20px;
+      font-size: 35px;
+  }
+
+  p {
+      font-size: 25px;
+  }
+
+  html {
+    scroll-behavior: smooth;
+   }
+   
+   a {
+    text-decoration: none;
+    color: black;
+   } 
+   
+   #top {
+    padding-bottom: 200%;
+   } 
+  
+   img {
+       border-radius: 8px;
+       width: 200px;
+       padding-left: 10px;
+   }
+   #middle {
+    padding-top: 20px;
+    left: 0;
+    line-height: 200px;
+    margin-top: 400px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+   }
+   #down {
+    padding-top: 80px;
+    left: 0;
+    line-height: 200px;
+    margin-top: 700px;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+   }
+h3 {
+    font-size: 35px;
+}
+/* Two image containers */
+.column {
+    float: left;
+    width: 40%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .zoom {
+    transition: transform .2s; /* Animation */
+    width: 55%;
+    height: 50%;
+    padding-left: 200px;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.5); /* (150% zoom ) */
+  }
