@@ -102,3 +102,10 @@ h3 {
   .zoom:hover {
     transform: scale(1.5); /* (150% zoom ) */
   }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
